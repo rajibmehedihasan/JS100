@@ -25,11 +25,9 @@ seats.forEach((seat) => {
         if (seat.classList.contains('selected')) {
             seat.classList.remove('selected');
             selectedSeats.pop(seat);
-            console.log(selectedSeats);
         } else {
             seat.classList.add('selected');
             selectedSeats.push(seat);
-            console.log(selectedSeats);
         }
         countPrice();
     });
