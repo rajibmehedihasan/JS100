@@ -8,7 +8,7 @@ let totalMovieValue = 0;
 
 function countPrice() {
     selectedSeat.textContent = selectedSeats.length;
-    totalMovieValue = currentMovieValue * parseInt(selectedSeats.length);
+    totalMovieValue = currentMovieValue * selectedSeats.length;
     totalPrice.textContent = totalMovieValue;
 }
 
@@ -28,6 +28,8 @@ seats.forEach((seat) => {
         } else {
             seat.classList.add('selected');
             selectedSeats.push(seat);
+            localStorage.setItem('selectedSeats', seat);
+            console.log(localStorage);
         }
         countPrice();
     });
