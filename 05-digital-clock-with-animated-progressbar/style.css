@@ -1,0 +1,58 @@
+body {
+    font-size: 16px;
+    font-family: 'New Tegomin', serif;
+    margin: 0;
+    padding: 0;
+    background-color: skyblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.clock-wrapper {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.clock-wrapper ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    text-align: center;
+}
+
+.clock-wrapper ul li {
+    padding: 20px 50px;
+}
+
+.clock-wrapper ul li h5 {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 0 10px;
+    line-height: 1;
+}
+
+.clock-wrapper .progressbar,
+.clock-wrapper .progress {
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    height: 10px;
+}
+
+.clock-wrapper .progressbar {
+    width: 100%;
+    background-color: black;
+}
+
+.clock-wrapper .progress {
+    bottom: 0;
+    background-color: rebeccapurple;
+}
