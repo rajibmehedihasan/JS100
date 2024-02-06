@@ -15,7 +15,7 @@ This collection includes a wide variety of projects, ranging from simple to more
 
 ## Project URL
 
-Explore the projects: [100 JavaScript Projects for Beginners](https://rajibmehedihasan.github.io)
+Explore the projects: [100 JavaScript Projects for Beginners](https://rajibmehedihasan.github.io/JS100)
 
 ## Features
 
